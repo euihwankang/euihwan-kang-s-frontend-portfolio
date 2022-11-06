@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <!--로고 및 메뉴-->
+        <a href = "#" class = "logo">Euihwan Kang</a>
+        <ul class = "navlist">
+            <li><a href ="#home" class = "active">Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#services" >Services</a></li>
+            <li><a href="#portfolio" >Portfolio</a></li>
+            <li><a href="#contact" >Contact  </a></li>
+
+        </ul>
+        <div class = "bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class = "home" id = "home">
+        <div class = "home-text">
+            <div class = "slide">
+                <span class ="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Euihwan Kang</h1>
+            <h3>A full stack <span>developer</span></h3>
+            <p>This is my first time working as a developer<br>
+            But, I am confident.
+            </p>
+            <div class = "button">
+                <a href = "#" class = "btn">Say Hello</a>
+                <a href = "#" class = "btn2"><span><i class = 'bx bx-play'></i></span>제 작업 한 번 보시죠.
+                </a>
+
+
+            </div>
+        </div>
+
+    </section>
+    <!--디자인 섹션-->
+    <section class="about" id = "about">
+        <div class = "about-img">
+            <img src =  "images/darkmypicture.png">
+
+        </div>
+        <div class = "about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>능동적이고 선도적인 개발자</h4>
+            <p>
+                전 1992년에 강릉에서 태어났습니다.
+                <br>
+                독서와 축구를 좋아합니다.
+                <br>
+                지금은 안양에서 삽니다.
+                <br><br><br>
+                <a href = "#" class="btn">More About</a>
+            </p>
+        </div>
+
+    </section>
+    <!--services section-->
+   <section class ="services" id = "services">
+    <div class ="main-text">
+        <p>전 자신있습니다</p>
+        <h2><span>My</span>Services</h2>
+    </div>
+
+    <div class = "services-content">
+        <div class = "box">
+            <div class = "s-icons">
+                <i class='bx bx-mobile-alt'></i>
+            </div>
+            <h3>Web Design</h3>
+            <p>UI-UX 디자인 과정 배웠습니다 <br>
+                잘 할 수 있습니다.
+            </p>
+            <a href = "#" class = "read"> Read More</a>
+        </div>
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-edit-alt'></i>
+            </div>
+            <h3>Frontend</h3>
+            <p>Html,Css,Javascript, 그리고 React를 <br>
+            할 수 있습니다.
+            </p>
+            <a href="#" class="read"> Read More</a>
+        </div>
+        
+            <div class="box">
+                <div class="s-icons">
+                <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Backend</h3>
+                <p>C언어,파이썬,자바 그리고 노드js를
+                    <br>
+                    할 수 있습니다
+                </p>
+                <a href="#" class="read"> Read More</a>
+            </div>
+
+    </div>
+
+   </section>
+   <!--portfolio section-->
+    
+    <!--contact section-->
+    <section class = "contact" id="contact">
+       <div class = "contact-text">
+        <h2>Contact<span>Me!</span></h2>
+        <h4>궁금하신 점이 있으시다면</h4>
+        <p>연락주세요</p>
+     
+       <div class = "list">
+        <li><a href='tel:010-9487-8243'>010-9487-8243</a></li>
+        <li><a href="mailto:kanguihwan692@gmail.com">kanguihwan692@gmail.com</a></li>
+        <li><a href="#">좋아요와 구독을 해주세요</a></li>
+       </div>
+       
+       <div class = "contact-icons">
+        <a href ="https://www.instagram.com/oh.iamhavingagoodlife/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+       </div>
+      </div>
+
+    <div class = "contact-form">
+        <form action="">
+        <input type="name" placeholder="이름" required>
+        <input type="email" placeholder="이메일 주소" required>
+        <input type="" placeholder="핸드폰 번호" required>
+        <textarea name="" id="" cols="35" rows="10" placeholder = "무엇을 도와드릴까요?" required></textarea>
+        <input type = "submit" value = "보내기" class = "submit" required>
+     </form>
+    </div>
+    </section>
+    <!--footer 시작-->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright ©강의환. All rights reserved.Designed by <span>YUIHWAN KANG</span></p>
+        </div>
+        <div class = "top">
+            <a href="#" class="logo">Euihwan Kang</a>
+        </div>
+    </section>
+    <!--JS Link-->
+    <script type = "text/javascript" src = "script.js"></script>
+   
+
+</body>
+</html>
